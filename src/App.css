@@ -1,0 +1,26 @@
+html {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.container {
+  height: 100vh !important;
+  width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container .bar {
+  margin: 0;
+  padding: 0;
+  width: 100vw !important;
+  height: 4vh;
+  /* background-color: blue; */
+}
+
+.container .row {
+  margin: 0;
+  padding: 0;
+  width: 100vw !important;
+  height: 96vh;
+  /* background-color: orange; */
+}

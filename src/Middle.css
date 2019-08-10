@@ -1,0 +1,32 @@
+.middle {
+  margin: 0 !important;
+  padding: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.middle p {
+  color: #282c34;
+}
+
+.middle .card {
+  margin: 1rem 0rem;
+  border-radius: 1.5rem;
+  border: 2px solid #d9c2ba;
+}
+
+.middle .card h5 {
+  font-size: 1.25rem;
+}
+
+.middle .card p {
+  font-size: 1rem;
+}
+
+.middle .card img {
+  object-position: top;
+  object-fit: cover;
+  max-height: 10vh;
+  border-radius: 1.5rem 1.5rem 0 0;
+}

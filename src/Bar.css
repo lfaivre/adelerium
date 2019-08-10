@@ -1,0 +1,37 @@
+.bar-container {
+  /* margin: 2rem 1rem; */
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bar-lines {
+  width: 95vw;
+}
+
+.bar-lines hr {
+  height: 2px;
+  margin: 0.5rem;
+  background-color: #d9c2ba;
+  border: none;
+  border-radius: 1px;
+}
+
+.bar-buttons {
+  display: flex;
+}
+
+.bar-buttons button {
+  margin: 0.25rem;
+  height: 1rem;
+  width: 1rem;
+  border: 0.125rem solid #d9c2ba;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.bar-buttons .bar-buttons-selected {
+  background-color: #d9c2ba;
+}
