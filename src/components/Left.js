@@ -1,10 +1,10 @@
 import React from "react";
-import "./Left.css";
+import "../styles/Left.css";
 
 class Left extends React.Component {
   render() {
     return (
-      <div className="left col-4">
+      <div className="left col-lg-12 col-xl-4">
         <div>
           <p className="slate">Hello, I'm Lorenzo</p>
           <p>Software Engineering</p>

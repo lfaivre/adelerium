@@ -1,0 +1,24 @@
+/* PAGE */
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  margin: 0rem;
+  padding: 0rem;
+  background: #282c34;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.content .bar {
+  height: 10vh;
+  width: 100vw !important;
+  margin: 0;
+  padding: 0;
+}
+
+.content .row {
+  height: 90vh;
+  width: 100vw !important;
+  margin: 0;
+  padding: 0;
+}

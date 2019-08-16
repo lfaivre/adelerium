@@ -1,5 +1,5 @@
 import React from "react";
-import "./Bar.css";
+import "../styles/Bar.css";
 
 class Bar extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class Bar extends React.Component {
           <hr />
         </div>
         <div className="bar-buttons">
-          <button className="bar-buttons-selected" />
+          <button />
           <button />
         </div>
       </div>

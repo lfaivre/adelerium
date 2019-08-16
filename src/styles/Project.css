@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 10rem; */
+  width: 100%;
+  padding: 2rem;
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); */
+  background: #282c34 !important;
+}
+
+.card h2 {
+  color: #ffffff;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.card p {
+  font-family: "Cormorant Garamond", serif;
+  color: #d9c2ba !important;
+  margin: 0;
+}

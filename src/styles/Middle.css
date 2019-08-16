@@ -1,9 +1,12 @@
 .middle {
   margin: 0 !important;
-  padding: 2rem !important;
+  padding: 4rem !important;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-around;
+  /* background-color: orange; */
+  height: auto;
 }
 
 .middle p {
