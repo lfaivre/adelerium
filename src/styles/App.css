@@ -1,6 +1,18 @@
 /* PAGE */
 
 html {
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+html::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* Chrome/Safari/Webkit */
 }
 
 body {
@@ -12,21 +24,16 @@ body {
   width: 100vw;
   padding: 0rem;
   margin: 0rem;
-  overflow-x: hidden;
+  overflow: auto;
   background: #282c34;
-}
-
-.delay-1s {
-  animation-delay: 1s !important;
-}
-
-.delay-0.75s {
-  animation-delay: 0.75s !important;
 }
 
 /* MOBILE */
 
 @media (max-width: 960px) {
+  .row {
+  }
+
   .leftlanding {
     min-height: 100vh;
     padding: 0 !important;
@@ -73,12 +80,6 @@ body {
     padding: 0 !important;
   }
 
-  .contact .contact-links {
-    /* height: 80%;
-    width: auto;
-    flex-direction: column; */
-  }
-
   .contact .contact-icon {
     height: 4rem;
   }
@@ -87,6 +88,14 @@ body {
     left: auto;
     right: 2rem;
     bottom: 2rem;
+  }
+
+  .animated.delay-1s {
+    animation-delay: 0s !important;
+  }
+
+  .animated.delay-0.75s {
+    animation-delay: 0s !important;
   }
 }
 
@@ -121,5 +130,9 @@ p {
 /* ANIMATIONS */
 
 .delay-1s {
-  animation-delay: 1s !important;
+  animation-delay: 1s;
+}
+
+.delay-0.75s {
+  animation-delay: 0.75s;
 }
