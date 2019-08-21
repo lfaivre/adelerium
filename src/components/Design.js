@@ -12,7 +12,7 @@ const Design = props => {
         rel="noopener noreferrer"
         className="slate"
       >
-        View in Figma
+        View
       </a>
     </div>
   );

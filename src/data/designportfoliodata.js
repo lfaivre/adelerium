@@ -2,19 +2,22 @@ export const designs = [
   {
     id: 1,
     name: "Kevala Design",
-    description: "Design for freelance business website.",
-    figma: "https://www.google.com"
+    description: "Freelance business website designed with Figma.",
+    figma:
+      "https://drive.google.com/file/d/1_GZ9ew-ERgq24zMnX2JFs0A5tYaobGej/view?usp=sharing"
   },
   {
     id: 2,
     name: "Mountain Air Music Series",
-    description: "Website designed for a client.",
-    figma: "https://www.google.com"
+    description: "Client website designed with Figma.",
+    figma:
+      "https://drive.google.com/file/d/1ZTyeddASYYHoa_FiV_kilPrq0xq06Pz-/view?usp=sharing"
   },
   {
     id: 3,
     name: "Personal Website",
-    description: "Previous drafts of this website.",
-    figma: "https://www.google.com"
+    description: "Previous draft of this website designed with Figma.",
+    figma:
+      "https://drive.google.com/file/d/1rWraMg5TchYM6wTwlf72Io6xjwA5-W11/view?usp=sharing"
   }
 ];

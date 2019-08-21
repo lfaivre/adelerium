@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/RightLanding.css";
+const RESUMELINK =
+  "https://drive.google.com/file/d/1jxgsBxnaDxW-MswrFDNiAVERGi9dHxXD/view?usp=sharing";
 
 class RightLanding extends React.Component {
   handleClick = e => {
@@ -21,11 +23,7 @@ class RightLanding extends React.Component {
             Design Portfolio
           </button>
           <button onClick={() => this.handleClick("contact")}>Contact</button>
-          <a
-            href="https://drive.google.com/open?id=1JCtGwoZ23SlnotcTwyJvNuEViggbXbUf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={RESUMELINK} target="_blank" rel="noopener noreferrer">
             View Resume
           </a>
         </div>
