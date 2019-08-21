@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 class Contact extends React.Component {
   handleClick = e => {
@@ -8,8 +11,11 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contact col-12 col-lg-6">
-        <h1>Contact</h1>
-        <h1>This is the page for the contact information.</h1>
+        <div>
+          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faPaperPlane} />
+        </div>
         <button onClick={() => this.handleClick("landing")}>back</button>
       </div>
     );
