@@ -1,12 +1,8 @@
 .rightlanding {
-  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.delay-1s {
-  animation-delay: 1s !important;
+  background-color: #ffffff;
 }
 
 .pages {
@@ -17,50 +13,38 @@
 }
 
 .rightlanding .pages button {
-  font-family: "Cormorant Garamond", serif;
-  background: #282c34;
-  color: white;
-  border: none;
   padding: 0.5rem 1rem 0.5rem 16rem;
   margin: 0.5rem;
+  border: none;
   text-align: right;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  background: #282c34;
   transition: all 0.3s ease-in-out;
 }
 
 .rightlanding .pages button:hover {
-  background: none;
   color: #282c34;
+  background: none;
 }
 
 .rightlanding .pages a {
-  font-family: "Cormorant Garamond", serif;
-  background: #282c34;
-  color: white;
-  border: none;
   padding: 0.5rem 1rem 0.5rem 16rem;
   margin: 0.5rem;
+  border: none;
   text-align: right;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  background: #282c34;
   transition: all 0.3s ease-in-out;
 }
 
 .rightlanding .pages a:hover {
-  background: none;
   text-decoration: none;
   color: #282c34;
+  background: none;
 }
 
 .rightlanding .pages button:focus {
   outline: none !important;
-}
-
-.fs-m {
-  font-size: 2rem;
-}
-
-.white {
-  color: #ffffff;
-}
-
-.pink {
-  color: #d9c2ba;
 }

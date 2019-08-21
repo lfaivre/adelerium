@@ -1,11 +1,11 @@
 .websites {
   position: relative;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Cormorant Garamond", serif;
+  background-color: #ffffff;
 }
 
 .website-list {

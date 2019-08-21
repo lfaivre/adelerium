@@ -1,17 +1,17 @@
 .contact {
   position: relative;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .contact-links {
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
 }
 
 .contact-links a {

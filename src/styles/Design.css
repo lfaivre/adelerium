@@ -15,27 +15,7 @@
 }
 
 .design a:hover {
+  font-size: 110%;
   color: #d9c2ba;
   text-decoration: none;
-  font-size: 110%;
-}
-
-.fs-m {
-  font-size: 2rem;
-}
-
-.fs-s {
-  font-size: 1rem;
-}
-
-.white {
-  color: #ffffff;
-}
-
-.slate {
-  color: #282c34;
-}
-
-.pink {
-  color: #d9c2ba;
 }

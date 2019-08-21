@@ -9,7 +9,10 @@ class BackButton extends React.Component {
   render() {
     return (
       <div className="backbutton">
-        <button onClick={() => this.handleClick("landing")} />
+        <button
+          onClick={() => this.handleClick("landing")}
+          className="animated pulse"
+        />
       </div>
     );
   }

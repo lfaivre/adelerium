@@ -6,13 +6,19 @@
   align-items: center;
 }
 
+.backbutton .animated {
+  animation-duration: 2s !important;
+  animation-delay: 2s !important;
+  animation-iteration-count: infinite !important;
+}
+
 .backbutton button {
+  height: 4rem;
+  width: 4rem;
   padding: 0;
   border: 1px solid #d9c2ba;
   border-radius: 50%;
   background: none;
-  height: 4rem;
-  width: 4rem;
   transition: all 0.3s ease-in-out;
 }
 
