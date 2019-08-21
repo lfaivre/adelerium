@@ -1,3 +1,17 @@
 .designportfolio {
-  background-color: pink;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.design-list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }

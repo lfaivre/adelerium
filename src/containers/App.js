@@ -1,5 +1,5 @@
 import React from "react";
-import Bar from "../components/Bar";
+// import Bar from "../components/Bar";
 import LeftLanding from "./LeftLanding";
 import RightLanding from "./RightLanding";
 import Websites from "./Websites";

@@ -1,0 +1,41 @@
+.website {
+  margin: 1rem 0rem;
+}
+
+.website-name {
+  margin-bottom: 0.5rem !important;
+}
+
+.website-description {
+  margin-bottom: 0.5rem !important;
+}
+
+.website a {
+  transition: all 0.3s ease-in-out;
+}
+
+.website a:hover {
+  color: #d9c2ba;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+.fs-m {
+  font-size: 2rem;
+}
+
+.fs-s {
+  font-size: 1rem;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.slate {
+  color: #282c34;
+}
+
+.pink {
+  color: #d9c2ba;
+}

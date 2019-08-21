@@ -1,0 +1,25 @@
+.backbutton {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backbutton button {
+  padding: 0;
+  border: 1px solid #d9c2ba;
+  border-radius: 50%;
+  background: none;
+  height: 4rem;
+  width: 4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.backbutton button:hover {
+  background-color: #d9c2ba;
+}
+
+.backbutton button:focus {
+  outline: none !important;
+}

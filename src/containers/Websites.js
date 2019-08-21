@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Websites.css";
+import Website from "../components/Website";
+import BackButton from "../components/BackButton";
+import { websites } from "../data/websitedata";
 
 class Websites extends React.Component {
   handleClick = e => {
@@ -8,9 +11,20 @@ class Websites extends React.Component {
   render() {
     return (
       <div className="websites col-12 col-lg-6">
-        <h1>Websites</h1>
-        <h1>This is the page for the websites.</h1>
-        <button onClick={() => this.handleClick("landing")}>back</button>
+        <div className="website-list">
+          {websites.map(website => {
+            return (
+              <Website
+                key={website.id}
+                name={website.name}
+                description={website.description}
+                hosted={website.hosted}
+                github={website.github}
+              />
+            );
+          })}
+        </div>
+        <BackButton handleClick={this.handleClick} />
       </div>
     );
   }
