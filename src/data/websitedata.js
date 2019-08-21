@@ -18,7 +18,7 @@ export const websites = [
   {
     id: 3,
     name: "Personal Website",
-    description: "This website. Utilized React & CSS.",
+    description: "This website. Utilized React, Create React App, & CSS.",
     hosted: "http://adelerium.dev",
     github: "https://github.com/lfaivre/adelerium"
   }
