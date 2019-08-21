@@ -31,9 +31,6 @@ body {
 /* MOBILE */
 
 @media (max-width: 960px) {
-  .row {
-  }
-
   .leftlanding {
     min-height: 100vh;
     padding: 0 !important;
@@ -71,7 +68,7 @@ body {
   }
 
   .websites .website-list {
-    padding: 2rem 0rem 2rem 2rem;
+    padding: 2rem 0rem;
   }
 
   .designportfolio {
@@ -80,7 +77,7 @@ body {
   }
 
   .designportfolio .design-list {
-    padding: 2rem 0rem 2rem 2rem;
+    padding: 2rem 0rem;
   }
 
   .contact {
