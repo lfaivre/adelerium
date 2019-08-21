@@ -1,22 +1,15 @@
 import React from "react";
 import Bar from "../components/Bar";
-import Left from "../components/Left";
-import Middle from "../components/Middle";
-import Right from "../components/Right";
+import LeftLanding from "./LeftLanding";
+import RightLanding from "./RightLanding";
 import "../styles/App.css";
 
 class App extends React.Component {
   render() {
     return (
-      <div className="content">
-        <div className="bar">
-          <Bar />
-        </div>
-        <div className="row">
-          <Left />
-          <Middle />
-          <Right />
-        </div>
+      <div className="row">
+        <LeftLanding />
+        <RightLanding />
       </div>
     );
   }

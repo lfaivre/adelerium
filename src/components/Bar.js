@@ -9,10 +9,6 @@ class Bar extends React.Component {
           <hr />
           <hr />
         </div>
-        <div className="bar-buttons">
-          <button />
-          <button />
-        </div>
       </div>
     );
   }

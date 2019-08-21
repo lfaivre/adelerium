@@ -1,0 +1,30 @@
+.leftlanding {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  width: 60%;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.fs-m {
+  font-size: 2rem;
+}
+
+.fs-s {
+  font-size: 1rem;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.pink {
+  color: #d9c2ba;
+}

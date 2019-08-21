@@ -18,22 +18,3 @@
   border: none;
   border-radius: 2px;
 }
-
-.bar-buttons {
-  display: flex;
-  margin-left: 1rem;
-}
-
-.bar-buttons button {
-  margin: 0.5rem;
-  padding: 0;
-  height: 1rem;
-  width: 1rem;
-  border: 0.125rem solid #d9c2ba;
-  border-radius: 50%;
-  background-color: #282c34;
-}
-
-.bar-buttons .bar-buttons-selected {
-  background-color: #d9c2ba;
-}
