@@ -54,9 +54,9 @@ body {
   }
 
   .rightlanding .pages button {
+    padding: 0;
     color: #282c34;
     background: none;
-    padding: 0;
   }
 
   .rightlanding .pages a {
@@ -70,14 +70,26 @@ body {
     padding: 0 !important;
   }
 
+  .websites .website-list {
+    padding: 2rem 0rem 2rem 2rem;
+  }
+
   .designportfolio {
     min-height: 100vh;
     padding: 0 !important;
   }
 
+  .designportfolio .design-list {
+    padding: 2rem 0rem 2rem 2rem;
+  }
+
   .contact {
     min-height: 100vh;
     padding: 0 !important;
+  }
+
+  .contact .contact-links {
+    padding-left: 2rem;
   }
 
   .contact .contact-icon {

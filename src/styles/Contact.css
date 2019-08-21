@@ -13,13 +13,3 @@
   justify-content: space-around;
   align-items: center;
 }
-
-.contact-links a {
-  color: #d9c2ba;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact-links a:hover {
-  color: #d9c2ba;
-  transform: scale(1.1);
-}
