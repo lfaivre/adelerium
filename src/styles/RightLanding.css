@@ -18,7 +18,7 @@
   border: none;
   text-align: right;
   font-family: "Cormorant Garamond", serif;
-  color: white;
+  color: #ffffff;
   background: #282c34;
   transition: all 0.3s ease-in-out;
 }
@@ -34,7 +34,7 @@
   border: none;
   text-align: right;
   font-family: "Cormorant Garamond", serif;
-  color: white;
+  color: #ffffff;
   background: #282c34;
   transition: all 0.3s ease-in-out;
 }

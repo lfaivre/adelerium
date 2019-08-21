@@ -18,21 +18,33 @@ class Contact extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} size="6x" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="6x"
+              className="contact-icon"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/lorenzofaivre/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} size="6x" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="6x"
+              className="contact-icon"
+            />
           </a>
           <a
             href="mailto:lorenzofaivre@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faPaperPlane} size="6x" />
+            <FontAwesomeIcon
+              icon={faPaperPlane}
+              size="6x"
+              className="contact-icon"
+            />
           </a>
         </div>
         <BackButton handleClick={this.handleClick} />

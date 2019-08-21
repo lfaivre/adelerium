@@ -1,16 +1,6 @@
 /* PAGE */
 
 html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
-  background-color: #282c34;
-}
-
-html::-webkit-scrollbar {
-  width: 0px;
-  background: transparent; /* Chrome/Safari/Webkit */
 }
 
 body {
@@ -32,6 +22,72 @@ body {
 
 .delay-0.75s {
   animation-delay: 0.75s !important;
+}
+
+/* MOBILE */
+
+@media (max-width: 960px) {
+  .leftlanding {
+    min-height: 100vh;
+    padding: 0 !important;
+  }
+
+  .leftlanding .introduction {
+    margin-left: 2rem;
+    width: 80%;
+  }
+
+  .rightlanding {
+    min-height: 100vh;
+    padding: 0 !important;
+  }
+
+  .rightlanding .pages {
+    width: 80%;
+  }
+
+  .rightlanding .pages button {
+    color: #282c34;
+    background: none;
+    padding: 0;
+  }
+
+  .rightlanding .pages a {
+    color: #282c34;
+    background: none;
+    padding: 0;
+  }
+
+  .websites {
+    min-height: 100vh;
+    padding: 0 !important;
+  }
+
+  .designportfolio {
+    min-height: 100vh;
+    padding: 0 !important;
+  }
+
+  .contact {
+    min-height: 100vh;
+    padding: 0 !important;
+  }
+
+  .contact .contact-links {
+    /* height: 80%;
+    width: auto;
+    flex-direction: column; */
+  }
+
+  .contact .contact-icon {
+    height: 4rem;
+  }
+
+  .backbutton {
+    left: auto;
+    right: 2rem;
+    bottom: 2rem;
+  }
 }
 
 /* FONT */
