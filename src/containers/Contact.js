@@ -11,7 +11,7 @@ class Contact extends React.Component {
   };
   render() {
     return (
-      <div className="contact col-12 col-lg-6">
+      <div className="contact col-12 col-lg-6 animated fadeIn delay-0.75s">
         <div className="contact-links">
           <a
             href="https://github.com/lfaivre"

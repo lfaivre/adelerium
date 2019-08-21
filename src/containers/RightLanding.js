@@ -7,8 +7,14 @@ class RightLanding extends React.Component {
   };
 
   render() {
+    let delay;
+    if (this.props.initial) {
+      delay = "rightlanding col-12 col-lg-6 animated fadeInUp delay-1s";
+    } else {
+      delay = "rightlanding col-12 col-lg-6 animated fadeIn delay-0.75s";
+    }
     return (
-      <div className="rightlanding col-12 col-lg-6">
+      <div className={delay}>
         <div className="pages fs-m">
           <button onClick={() => this.handleClick("websites")}>Websites</button>
           <button onClick={() => this.handleClick("designportfolio")}>
@@ -20,7 +26,7 @@ class RightLanding extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Resume
+            View Resume
           </a>
         </div>
       </div>

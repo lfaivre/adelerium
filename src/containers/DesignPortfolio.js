@@ -10,7 +10,7 @@ class DesignPortfolio extends React.Component {
   };
   render() {
     return (
-      <div className="designportfolio col-12 col-lg-6">
+      <div className="designportfolio col-12 col-lg-6 animated fadeIn delay-0.75s">
         <div className="design-list">
           {designs.map(design => {
             return (

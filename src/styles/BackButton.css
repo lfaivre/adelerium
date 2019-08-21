@@ -1,6 +1,6 @@
 .backbutton {
   position: absolute;
-  bottom: 5%;
+  left: -2rem;
   display: flex;
   justify-content: center;
   align-items: center;

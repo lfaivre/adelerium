@@ -1,18 +1,19 @@
 import React from "react";
-// import Bar from "../components/Bar";
+import Bar from "../components/Bar";
 import LeftLanding from "./LeftLanding";
 import RightLanding from "./RightLanding";
 import Websites from "./Websites";
 import DesignPortfolio from "./DesignPortfolio";
 import Contact from "./Contact";
+import "animate.css";
 import "../styles/App.css";
 
 class App extends React.Component {
-  state = { right: "landing" };
+  state = { right: "landing", initial: true };
 
   changeView = e => {
-    this.setState({ right: e }, () => {
-      console.log(this.state.right);
+    this.setState({ initial: false }, () => {
+      this.setState({ right: e });
     });
   };
 
@@ -20,7 +21,12 @@ class App extends React.Component {
     let right;
 
     if (this.state.right === "landing") {
-      right = <RightLanding changeView={this.changeView} />;
+      right = (
+        <RightLanding
+          changeView={this.changeView}
+          initial={this.state.initial}
+        />
+      );
     } else if (this.state.right === "websites") {
       right = <Websites changeView={this.changeView} />;
     } else if (this.state.right === "designportfolio") {
@@ -31,6 +37,7 @@ class App extends React.Component {
 
     return (
       <div className="row">
+        <Bar />
         <LeftLanding />
         {right}
       </div>

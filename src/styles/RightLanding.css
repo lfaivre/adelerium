@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.delay-1s {
+  animation-delay: 1s !important;
+}
+
 .pages {
   width: 80%;
   display: flex;

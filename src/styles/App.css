@@ -6,6 +6,7 @@ html {
   overflow-x: hidden;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
+  background-color: #282c34;
 }
 
 html::-webkit-scrollbar {
@@ -25,4 +26,12 @@ body {
   padding: 0rem;
   background: #282c34;
   font-family: "Cormorant Garamond", serif;
+}
+
+.delay-1s {
+  animation-delay: 1s !important;
+}
+
+.delay-0.75s {
+  animation-delay: 0.75s !important;
 }

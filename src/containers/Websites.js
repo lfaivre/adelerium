@@ -10,7 +10,7 @@ class Websites extends React.Component {
   };
   render() {
     return (
-      <div className="websites col-12 col-lg-6">
+      <div className="websites col-12 col-lg-6 animated fadeIn delay-0.75s">
         <div className="website-list">
           {websites.map(website => {
             return (
