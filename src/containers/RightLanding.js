@@ -15,7 +15,13 @@ class RightLanding extends React.Component {
             Design Portfolio
           </button>
           <button onClick={() => this.handleClick("contact")}>Contact</button>
-          <button onClick={() => this.handleClick("resume")}>Resume</button>
+          <a
+            href="https://drive.google.com/open?id=1JCtGwoZ23SlnotcTwyJvNuEViggbXbUf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </div>
     );
