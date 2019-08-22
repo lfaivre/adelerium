@@ -10,7 +10,7 @@ class RightLanding extends React.Component {
 
   render() {
     let delay;
-    if (this.props.initial) {
+    if (this.props.initial && window.innerWidth > 960) {
       delay = "rightlanding col-12 col-lg-6 animated fadeInUp delay-1s";
     } else {
       delay = "rightlanding col-12 col-lg-6 animated fadeIn delay-0.75s";

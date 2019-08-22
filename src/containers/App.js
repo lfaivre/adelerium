@@ -12,9 +12,13 @@ class App extends React.Component {
   state = { right: "landing", initial: true };
 
   changeView = e => {
-    this.setState({ initial: false }, () => {
+    if (this.state.initial === false) {
       this.setState({ right: e });
-    });
+    } else {
+      this.setState({ initial: false }, () => {
+        this.setState({ right: e });
+      });
+    }
   };
 
   render() {
