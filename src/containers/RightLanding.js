@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/RightLanding.css";
-const RESUMELINK =
-  "https://drive.google.com/file/d/1jxgsBxnaDxW-MswrFDNiAVERGi9dHxXD/view?usp=sharing";
+import { RESUMELINK } from "../data/resumedata";
 
 class RightLanding extends React.Component {
   handleClick = e => {
